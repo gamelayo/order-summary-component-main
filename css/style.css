@@ -19,7 +19,7 @@ main{
   justify-content: center;
   height: 90%;
   margin: 50px auto;
-  background-color: white;
+  background-color: #F1F9F9;
 
   border-radius: 10px;
   overflow: hidden;
@@ -76,7 +76,7 @@ font-weight: 500;
 }
 
 
-span h3,
+div h2,
 span p{
 margin: 5px;
 }
