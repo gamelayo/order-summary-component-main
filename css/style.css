@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+    background: url("../images/pattern-background-mobile.svg");
+
+}
+
+
+main{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: auto;
+
+
+}
+article{
+background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 80%;
+}
+
+h1{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+p{
+  font-family: 'Red Hat Display', sans-serif;
+font-weight: 500;
+color: grey;
+}
+h4{
+  font-family: 'Red Hat Display', sans-serif;
+font-weight: 700;
+}
+.image-section,
+.image-section img{
+  width: 100%;
+}
+
+.first-box{
+  width:80%;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.second-box{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+margin: 10px 1rem;
+
+}
+.second-box{
+  width: auto;
+}
+.second-box img{
+  width: 20%;
+}
+.second-box a{
+  align-self: center;
+  font-family: 'Red Hat Display', sans-serif;
+font-weight: 500;
+
+}
+
+
+.second-box_title h4,
+.second-box_title p{
+margin: 5px;
+}
+.button-section{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  margin: 20px auto;
+
+}
+button{
+  width: 100%;
+  margin: 5px 0;
+  border: none;
+  border-radius: 20px;
+  padding: 15px 5px;
+  font-family: 'Red Hat Display', sans-serif;
+font-weight: 500;
+font-size: 15px;
+}
+
+.button-section .first{
+  color:white;
+  background-color:  hsl(245, 75%, 52%);
+}
+
+.button-section .second{
+  color: grey;
+}
+
+
+
+@media (min-width: 40rem) {
+body{
+    background: url("../images/pattern-background-desktop.svg");
+}
+  main{
+    width: 23rem;
+    margin: 50px auto;
+  }
+ article{
+   height: 90vh;
+
+ }
+}
